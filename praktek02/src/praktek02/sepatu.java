@@ -10,5 +10,18 @@ package praktek02;
  * @author AKBAR ALFARIZI
  */
 public class sepatu {
+    String merk;
+    String warna;
+    String bahan;
+    String size;
+    String madein;
     
+    void CetakInfo(){
+        System.out.println("-----------------------");
+        System.out.println("Nama   : "+merk );
+        System.out.println("Warna  : "+warna );
+        System.out.println("Bahan  : "+bahan );
+        System.out.println("Size   : "+size );
+        System.out.println("MadeIn : "+madein );
+        System.out.println("-----------------------");
 }
