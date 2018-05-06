@@ -15,6 +15,12 @@ public class sepatu {
     String bahan;
     String size;
     String madein;
+
+    public sepatu() {
+        
+    }
+    
+    
     
     void CetakInfo(){
         System.out.println("-----------------------");
