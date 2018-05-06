@@ -24,4 +24,12 @@ public class sepatu {
         System.out.println("Size   : "+size );
         System.out.println("MadeIn : "+madein );
         System.out.println("-----------------------");
+        
+    }
+    
+    double penjelasanKeterangan(){
+        double keterangan;
+        keterangan=size+madein;
+        return keterangan;
+    }
 }
