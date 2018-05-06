@@ -32,4 +32,8 @@ public class sepatu {
         keterangan=size+madein;
         return keterangan;
     }
+    void cetakKeterangan(){
+        System.out.println("Keterangan adalah : " + penjelasanKeterangan());
+        jalan.cetakKeterangan;
+    }
 }
